@@ -47,9 +47,30 @@ import 'dart:io';
 //   }
 // }
 
+// void main() {
+//   var i;
+//   for (i = 0; i <= 10; i++) {
+//     print(i);
+//   }
+// }
+//!array
+
 void main() {
-  var i;
-  for (i = 0; i <= 10; i++) {
-    print(i);
+  var arr = [1, 2, 3, 4, 5, 6, 'h3ll0', 1.23];
+  List<int> a = [1, 2, 3, 4, 5];
+  var ad = [1, 23, 45, 66];
+  print(a);
+  print(arr);
+
+  ///chechikin
+
+  var z = [2, 11, 10, 22, 33, 43];
+  if (z.contains(10)) {
+    print('10 is in the list');
+  } else {
+    print('10 is not in the list');
   }
+  List<List<int>> list = [[12,34,56],[67,78,65,44]];
+
+  print(list[1][1]);
 }
