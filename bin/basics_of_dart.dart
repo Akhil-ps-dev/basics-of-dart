@@ -1,5 +1,24 @@
-import 'package:basics_of_dart/basics_of_dart.dart' as basics_of_dart;
+import 'dart:io';
 
-void main(List<String> arguments) {
-  print('Hello world: ${basics_of_dart.calculate()}!');
+// void main() {
+//   print('hello');
+
+//   var name = 'john';
+//   print(' hello $name');
+// }
+
+void main() {
+  print("enter two numbers");
+  var num1 = stdin.readLineSync();
+  var num2 = stdin.readLineSync();
+
+  if (num1 == null) {
+    num1 = '0';
+  }
+  var sum1 = int.parse(num1);
+var sum2 = int.parse(num2!);
+print( "the sum os ${sum1 + sum2}");
+
+  
 }
+
