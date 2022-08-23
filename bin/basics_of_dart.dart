@@ -34,15 +34,22 @@ import 'dart:io';
 //   ''';
 //   print(e.length);
 // }
+//? if / else if ,else
+// void main() {
+//   var a = 10;
+
+//   if (a < 0) {
+//     print('a is negative');
+//   } else if (a == 0) {
+//     print('a is zero');
+//   } else {
+//     print('a is positive');
+//   }
+// }
 
 void main() {
-  var a = 10;
-
-  if (a < 0) {
-    print('a is negative');
-  } else if (a == 0) {
-    print('a is zero');
-  } else {
-    print('a is positive');
+  var i;
+  for (i = 0; i <= 10; i++) {
+    print(i);
   }
 }
