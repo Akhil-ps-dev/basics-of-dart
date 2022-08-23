@@ -20,17 +20,29 @@ import 'dart:io';
 
 //!datatypes
 
-void main() {
-  int a = 10;
-  double b = 10.0;
-  num c = 10;
+// void main() {
+//   int a = 10;
+//   double b = 10.0;
+//   num c = 10;
 
-  String d = 'hello';
-  String e = "i'm akhil";
-  String f = '''
-  my address 
-  kottaym
-  delhi
-  ''';
-  print(e.length);
+//   String d = 'hello';
+//   String e = "i'm akhil";
+//   String f = '''
+//   my address
+//   kottaym
+//   delhi
+//   ''';
+//   print(e.length);
+// }
+
+void main() {
+  var a = 10;
+
+  if (a < 0) {
+    print('a is negative');
+  } else if (a == 0) {
+    print('a is zero');
+  } else {
+    print('a is positive');
+  }
 }
