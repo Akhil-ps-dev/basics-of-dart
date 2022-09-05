@@ -55,22 +55,54 @@ import 'dart:io';
 // }
 //!array
 
+// void main() {
+//   var arr = [1, 2, 3, 4, 5, 6, 'h3ll0', 1.23];
+//   List<int> a = [1, 2, 3, 4, 5];
+//   var ad = [1, 23, 45, 66];
+//   print(a);
+//   print(arr);
+
+//!/chechikin
+
+//   var z = [2, 11, 10, 22, 33, 43];
+//   if (z.contains(10)) {
+//     print('10 is in the list');
+//   } else {
+//     print('10 is not in the list');
+//   }
+//   List<List<int>> list = [[12,34,56],[67,78,65,44]];
+
+//   print(list[1][1]);
+// }
+
+// Map<String, String> maps = {
+//   "name": "akhil",
+//   "age": "12",
+// };
+// void main() {
+//   print(maps["name"]);
+// }
+
+// // or
+
+// var map = {
+//   "name": "akhil",
+//   "age": 23,
+// };
 void main() {
-  var arr = [1, 2, 3, 4, 5, 6, 'h3ll0', 1.23];
-  List<int> a = [1, 2, 3, 4, 5];
-  var ad = [1, 23, 45, 66];
-  print(a);
-  print(arr);
+  sum();
+  sumpara(2, 3);
+  sumret(22, 3);
+}
 
-  ///chechikin
+void sum() {
+  print(2 + 3);
+}
 
-  var z = [2, 11, 10, 22, 33, 43];
-  if (z.contains(10)) {
-    print('10 is in the list');
-  } else {
-    print('10 is not in the list');
-  }
-  List<List<int>> list = [[12,34,56],[67,78,65,44]];
+void sumpara(int a, int b) {
+  print("${a + b}");
+}
 
-  print(list[1][1]);
+int sumret(int a, int b) {
+  return a + b;
 }
