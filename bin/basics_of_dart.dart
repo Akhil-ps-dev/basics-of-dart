@@ -93,6 +93,7 @@ void main() {
   sum();
   sumpara(2, 3);
   sumret(22, 3);
+  func(first: 10, second: 9);
 }
 
 void sum() {
@@ -105,4 +106,9 @@ void sumpara(int a, int b) {
 
 int sumret(int a, int b) {
   return a + b;
+}
+//required parameter
+
+void func({required int first, required int second}) {
+  print(first + second);
 }
